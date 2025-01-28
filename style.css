@@ -11,6 +11,8 @@ body{
     margin-top: 5rem;
     gap: 3rem;
     background: linear-gradient(to right, #134e5e, #71b280);
+    transition: background-image 0.65s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 1;
 
      /* background-image: url(snoww.jpg); */
     background-repeat: no-repeat;
