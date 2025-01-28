@@ -1,0 +1,108 @@
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+    background: linear-gradient(to right, #134e5e, #71b280);
+
+     /* background-image: url(snoww.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.inputdiv{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+#input{
+    height: 2rem;
+    width: 20rem;
+    padding-left:7px;
+    padding-right: 7px;
+    margin-top:1px ;
+    border:none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+}
+#submit{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit img{
+    height: 2.4rem;
+}
+
+#card{
+    background-color: rgba(162, 197, 242, 0.314);
+    height: 420px;
+    width: 300px;
+    padding: 15px;
+    margin-right: 40px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+}
+.cityname{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 3rem;
+    color: white;
+}
+
+.mweather{
+    display: flex;
+    flex-direction: column;
+}
+.temp-weather{
+    display: flex;
+}
+.temp{
+    color: white;
+    font-size: 5rem;
+}
+.weather{
+    color: white;
+    display: flex;
+    margin-top: 66.5px;
+    font-size: 1.9rem;
+}
+.hum-feels{
+    color: rgb(247, 247, 247);
+    display: flex;
+    gap: 20px;
+}
+.hum-feels h4{
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+
+
+@media(max-width:480px){
+    #card{
+        margin: 0;
+    }
+    body{
+        gap: 2rem;
+        margin-top: 3.5rem;
+    }
+
+}
